@@ -9,8 +9,8 @@ PHPLDAPADMIN_SERVER_PATH: /phpldapadmin
 # - add them in service/phpldapadmin/assets/apache2/certs and build the image
 # - or during docker run mount a data volume with those files to /container/service/phpldapadmin/assets/apache2/certs
 PHPLDAPADMIN_HTTPS: true
-PHPLDAPADMIN_HTTPS_CRT_FILENAME: phpldapadmin.crt
-PHPLDAPADMIN_HTTPS_KEY_FILENAME: phpldapadmin.key
+PHPLDAPADMIN_HTTPS_CRT_FILENAME: tls.crt
+PHPLDAPADMIN_HTTPS_KEY_FILENAME: tls.key
 PHPLDAPADMIN_HTTPS_CA_CRT_FILENAME: ca.crt
 
 PHPLDAPADMIN_TRUST_PROXY_SSL: false
